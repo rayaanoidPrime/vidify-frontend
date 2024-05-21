@@ -38,7 +38,7 @@ const Navbar = () => {
           <p
             className={`${fonts.unbounded.className} self-center whitespace-nowrap font-semibold`}
           >
-            Swiftube
+            vidify
           </p>
         </Link>
         <div className="flex items-center gap-3 md:order-2">

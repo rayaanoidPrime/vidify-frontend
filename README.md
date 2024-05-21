@@ -1,12 +1,12 @@
 # ℹ️ This is the repo for the now outdated alpha version. I'm working on the final release, which will be vastly better suited for production use!
 
-![swiftube-banner](https://github.com/thecmdrunner/swiftube-frontend/assets/38887390/c043b912-0054-4289-970d-b95d5d749fd6)
+![vidify-banner](https://github.com/thecmdrunner/vidify-frontend/assets/38887390/c043b912-0054-4289-970d-b95d5d749fd6)
 
-# Swiftube
+# vidify
 
-Swiftube is an innovative project that utilizes OpenAI and Remotion to transform content in text format, into polished explainer videos. It uses Google's text-to-speech feature to provide the voice for the video.
+vidify is an innovative project that utilizes OpenAI and Remotion to transform content in text format, into polished explainer videos. It uses Google's text-to-speech feature to provide the voice for the video.
 
-This project is built with a [**`create-t3-app`**](https://create.t3.gg/) for frontend and an Express server for the backend ([another repo](https://github.com/thecmdrunner/swiftube-backend)).
+This project is built with a [**`create-t3-app`**](https://create.t3.gg/) for frontend and an Express server for the backend ([another repo](https://github.com/thecmdrunner/vidify-backend)).
 
 # Getting Started
 
@@ -20,7 +20,7 @@ To get started, follow these steps:
 
 ## How it Works
 
-Swiftube works by taking text input (prompt) from the user and utilizing OpenAI's APIs to generate talking points for the video. The script is then passed to Remotion, which generates the actual video with the help of Google's text-to-speech feature. The resulting video is then displayed to the user.
+vidify works by taking text input (prompt) from the user and utilizing OpenAI's APIs to generate talking points for the video. The script is then passed to Remotion, which generates the actual video with the help of Google's text-to-speech feature. The resulting video is then displayed to the user.
 
 ## Contributing
 

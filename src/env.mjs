@@ -7,7 +7,7 @@ export const env = createEnv({
    * isn't built with invalid env vars.
    */
   server: {
-    DATABASE_URL: z.string().url(),
+    // DATABASE_URL: z.string().url(),
     NODE_ENV: z.enum(["development", "test", "production"]),
     CLERK_SECRET_KEY: z.string().min(5),
     UPSTASH_REDIS_URL: z.string().startsWith("redis"),
@@ -37,10 +37,10 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(5),
     NEXT_PUBLIC_DEMO_MODE: z.enum(["TEST", "PROD"]),
 
-    NEXT_PUBLIC_SERVER_BACKEND_URL: z.string().url(),
-    NEXT_PUBLIC_RENDER_BACKEND_URL: z.string().url(),
-    NEXT_PUBLIC_RAILWAY_BACKEND_URL: z.string().url(),
-    NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID: z.string()
+    // NEXT_PUBLIC_SERVER_BACKEND_URL: z.string().url(),
+    // NEXT_PUBLIC_RENDER_BACKEND_URL: z.string().url(),
+    // NEXT_PUBLIC_RAILWAY_BACKEND_URL: z.string().url(),
+    // NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID: z.string(),
     // NEXT_PUBLIC_CLIENTVAR: z.string().min(1),
   },
 
@@ -60,7 +60,7 @@ export const env = createEnv({
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
 
-    DATABASE_URL: process.env.DATABASE_URL,
+    // DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
 
     FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
@@ -77,11 +77,12 @@ export const env = createEnv({
       process.env.PAID_FIREBASE_MESSAGING_SENDER_ID,
     PAID_FIREBASE_APP_ID: process.env.PAID_FIREBASE_APP_ID,
 
-    NEXT_PUBLIC_RAILWAY_BACKEND_URL:
-      process.env.NEXT_PUBLIC_RAILWAY_BACKEND_URL,
-    NEXT_PUBLIC_RENDER_BACKEND_URL: process.env.NEXT_PUBLIC_RENDER_BACKEND_URL,
-    NEXT_PUBLIC_SERVER_BACKEND_URL: process.env.NEXT_PUBLIC_SERVER_BACKEND_URL,
-    NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID: process.env.NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID,
+    // NEXT_PUBLIC_RAILWAY_BACKEND_URL:
+    //   process.env.NEXT_PUBLIC_RAILWAY_BACKEND_URL,
+    // NEXT_PUBLIC_RENDER_BACKEND_URL: process.env.NEXT_PUBLIC_RENDER_BACKEND_URL,
+    // NEXT_PUBLIC_SERVER_BACKEND_URL: process.env.NEXT_PUBLIC_SERVER_BACKEND_URL,
+    // NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID:
+    //   process.env.NEXT_PUBLIC_HIGHLIGHT_PROJECT_ID,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
 });

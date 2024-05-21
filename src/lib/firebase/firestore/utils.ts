@@ -19,7 +19,7 @@ import {
   reduceNewTotalCreditsAllottedBy,
 } from "~/lib/upstash";
 
-const videoCollection = "swiftube_video";
+const videoCollection = "vidify_video";
 // const videoCollection = "video";
 const videoCollectionRef = collection(db, videoCollection);
 const customerCollection = "clerk_user";
@@ -33,6 +33,7 @@ export async function getCustomerDetails({ userId }: { userId: string }) {
   console.time("getCustomerDetails");
 
   let customer = await getCustomer(userId);
+  console.log(customer);
 
   if (!!!customer) {
     // TODO: Keep free credits system in redis?

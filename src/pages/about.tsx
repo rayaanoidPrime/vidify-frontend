@@ -43,12 +43,12 @@ const About = () => {
                 </div>
               </address>
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
-                Swiftube v0.1 Alpha
+                vidify v0.1 Alpha
               </h1>
             </header>
 
             <p>
-              Swiftube is a platform for creating videos with AI, kind of like
+              vidify is a platform for creating videos with AI, kind of like
               ChatGPT for videos.
               <br />
               Just write a prompt, supply some content, and your video will be
@@ -64,7 +64,7 @@ const About = () => {
             </p> */}
 
             <p className="my-4 font-semibold">
-              Swiftube makes use of these core technologies under the hood:
+              vidify makes use of these core technologies under the hood:
             </p>
 
             <ul className="mt-4 flex flex-col gap-y-2">
@@ -104,7 +104,7 @@ const About = () => {
                   <LucideGithub strokeWidth={1.3} className="h-8 w-8" />
                 </Button>
               </Link>
-              <Link href="mailto:thecmdrunner@proton.me?subject=Swiftube&body=Hello!%20I'd%20love%20to%20know%20more%20about%20Swiftube%20%3A)">
+              <Link href="mailto:thecmdrunner@proton.me?subject=vidify&body=Hello!%20I'd%20love%20to%20know%20more%20about%20vidify%20%3A)">
                 <Button className="h-12 rounded-full">
                   <LucideMail strokeWidth={1.3} className="h-8 w-8" />
                 </Button>

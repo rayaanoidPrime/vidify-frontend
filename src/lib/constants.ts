@@ -168,7 +168,7 @@ export const URLs = {
   localhost: "http://localhost:5000",
 };
 
-export const BACKEND_API_URL = URLs.railway;
+export const BACKEND_API_URL = URLs.localhost;
 
 export const WakeUpFromColdStartURL = BACKEND_API_URL;
 
@@ -239,10 +239,8 @@ const explorableVideoIds = [
   "fe3c5e5d8f8c9076f0745fbbb00416772d9058e61172c67efb16ffbfbb4e26c0",
 ];
 
-
 // Get `CompletedVideos` from the tRPC query.
 // export const explorablVideos = CompletedVideos.filter(video => explorableVideoIds.includes(video.uniqueId));
-
 
 export const explorableVideos = [
   {

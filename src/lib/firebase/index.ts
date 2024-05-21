@@ -26,6 +26,6 @@ const freeConfig = {
 };
 
 // Initialize Firebase
-export const paidApp = initializeApp(paidConfig);
+// export const paidApp = initializeApp(paidConfig);
 export const freeApp = initializeApp(freeConfig);
 export const db = getFirestore(freeApp);
